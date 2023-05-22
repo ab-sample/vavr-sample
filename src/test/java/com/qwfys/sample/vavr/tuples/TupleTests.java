@@ -14,7 +14,7 @@ import static org.assertj.core.api.BDDAssertions.then;
  * @since 0.0.1
  */
 @SpringBootTest
-public class TupleSampleTests {
+public class TupleTests {
 
     @Test
     void _a1() {

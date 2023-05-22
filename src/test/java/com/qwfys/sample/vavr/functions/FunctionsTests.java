@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @since 0.0.1
  */
 @SpringBootTest
-public class FunctionSampleTests {
+public class FunctionsTests {
 
     @Test
     void _a1() {
