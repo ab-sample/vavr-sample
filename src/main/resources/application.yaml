@@ -1,21 +1,14 @@
 management:
+
   server:
     port: 19001
   endpoint:
-#    info:
-#      enabled: true
     env:
       enabled: true
       show-values: always
-#    health:
-#      enabled: true
-#      show-details: always
-#    mappings:
-#      enabled: true
-#    metrics:
-#      enabled: true
-#    beans:
-#      enabled: true
+    health:
+      enabled: true
+      show-details: always
   endpoints:
     web:
       exposure:
@@ -36,8 +29,16 @@ management:
 server:
   port: 19000
 
+
 info:
   app:
     name: vavr sample
     version: 0.0.1.final
     website: https://blog.csdn.net/qwfys
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+#      fail-on-empty-beans: false
+#    default-property-inclusion: non_empty
