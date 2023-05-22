@@ -1,0 +1,43 @@
+management:
+  server:
+    port: 19001
+  endpoint:
+#    info:
+#      enabled: true
+    env:
+      enabled: true
+      show-values: always
+#    health:
+#      enabled: true
+#      show-details: always
+#    mappings:
+#      enabled: true
+#    metrics:
+#      enabled: true
+#    beans:
+#      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    java:
+      enabled: true
+    env:
+      enabled: true
+    git:
+      enabled: true
+      mode: full
+    build:
+      enabled: true
+    os:
+      enabled: true
+
+server:
+  port: 19000
+
+info:
+  app:
+    name: vavr sample
+    version: 0.0.1.final
+    website: https://blog.csdn.net/qwfys

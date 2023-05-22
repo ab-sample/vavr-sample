@@ -14,7 +14,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class TupleTests {
 
     @Test
-    void _a1() {
+    void _a001() {
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>");
+
         Tuple2<String, Integer> java8 = Tuple.of("java", 8);
         String _1 = java8._1;
         Integer _2 = java8._2;
@@ -36,6 +38,8 @@ public class TupleTests {
         );
 
         System.out.println("that2 is " + that2);
+
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<");
 
     }
 }
